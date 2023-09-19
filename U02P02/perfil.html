@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pefil</title>
+</head>
+<h1>#6</h1>
+<body>
+    <h1>Esto es una prueba de creación de un perfil</h1> 
+</body>
+
+<form action="/datosperfil" method="post">
+    <fieldset>
+        
+        <input type="readonly" value="ESTUDIANTE" disabled>
+        <br>
+        <br>
+        <label for="nombreapellido">Nombre y Apellido: </label>
+        <input type="text" name="nombreapellido" id="nombreapellido">
+        <br>
+        <br>
+        <label for="email">Gmail: </label>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+        <label for="Edad">Edad</label>
+        <input type="number" name="edad" id="edad">
+        <br>
+        <br>
+        <label for="seleccionable">Nacionalidad</label>
+        <select name="seleccionable" id="seleccionable">
+            <option value="argentina">Argentina</option>
+            <option value="brasil">Brasil</option>
+            <option value="uruguay">Uruguay</option>
+            <option value="chile">Chile</option>
+        </select>
+        <br>
+        <br>
+        <label for="seleccionable2">Condición laboral</label>
+        <select name="seleccionable2" id="seleccionable2">
+            <option value="desempleado">desempleado</option>
+            <option value="busquedalaboral">Busqueda laboral</option>
+            <option value="parttime">Trabajo part time</option>
+            <option value="fulltime">Trabajo full time</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+    </fieldset>
+    <fieldset>
+        <label for="gustosmusicales">Gustos musicales</label>
+        <input type="text" name="gustosmusicales" id="gustosmusicales">
+        <br>
+        <br>
+        <label for="seleccionable3">Comidas preferidas</label>
+        <select name="seleccionable3" id="seleccionable3">
+            <option value="Milanesa">Milanesa</option>
+            <option value="Suprema">Suprema</option>
+            <option value="Napolitana">Napolitana</option>
+        </select>
+    </fieldset>
+    <input type="submit" value="Enviar">
+    <br>
+    <br>
+    <label for="checkbox">¿Esta todo?</label>
+        <input type="checkbox" name="checkA" id="checkA">
+        <input type="checkbox" name="checkB" id="checkB">
+</form>
+</html>
